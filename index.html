@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <!-- phan dau -->
+    <head>
+        <title>TỬ VONG VẠN HOA ĐỒNG</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main_home.css">
+    
+        <div class="header-name">
+            <h1 id="ten-trung">死 亡 万 花 筒</h1>
+            <h1 id="han-viet">Tử Vong Vạn Hoa Đồng - Tây Tử Tự</h1>
+        </div>
+
+        <link href='https://fonts.googleapis.com/css?family=Bilbo' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+    </head>
+
+    <!-- phan than -->
+    <body>
+        <p>Con người ai cũng phải chết. Có người chết già, có người chết bất đắc kỳ tử: Bệnh chết, tai nạn chết, 
+            bị sát hại, nhảy lầu chết… Liệu họ có còn cơ hội được sống? Có, mười hai cánh cửa được mở ra, mười hai 
+            thế giới. Đến với thế giới của cửa, bạn sẽ có cuộc đời mới. Nhưng cái giá phải trả không hề rẻ, thua cuộc 
+            là kết thúc cả trong cửa lẫn ngoài đời. Liệu Lâm Thu Thạch - một kiến trúc sư bình thường có vượt qua được không?
+        </p>
+        <p id="key">
+            <b>“Chỉ có người nắm giữ chìa khóa, mới thoát khỏi cái chết đã định sẵn”…</b>
+        </p>
+
+        <div id="button">
+           <a href="http://127.0.0.1:5500/Tu-vong-van-hoa-dong/menu.html">
+            BẮT ĐẦU
+           </a> 
+        </div>
+
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:21%;" id="button1">TÙY CHỈNH</button>
+
+        <div id="id01" class="modal">
+  
+            <form class="modal-content animate"  method="post">
+                <div class="imgcontainer">
+                        <h2 id="dap-an">Tùy chỉnh</h2>
+                </div>
+
+                <div class="container">
+                    <label for="che-do"><b>Chế độ tối</b></label>
+                    <div id="wrapper">
+                        <input type="checkbox" name="" class="switch-toggle" id="light-dark">
+                    </div>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Đóng</button>
+                </div>
+            </form>
+        </div>
+
+        <script>
+        // Get the modal
+            var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+            var checkbox_toggle = document.getElementById('light-dark');
+        checkbox_toggle.addEventListener('change', function(){
+            // THêm class dark cho body
+            document.body.classList.toggle('dark');
+        });
+        </script>
+    </body>
+
+    <!-- footer -->
+    <footer>
+
+    </footer>
+</html>
