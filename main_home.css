@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+}
+
+.header-name {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#ten-trung {
+    font-size: 50px;
+    color: rgb(100, 20, 20);
+    font-family: Copperplate, Papyrus, fantasy;
+    text-shadow: 3px 3px 3px #351111;
+}
+
+#han-viet {
+    font-size: 40px;
+    /* font-family: Copperplate, Papyrus, fantasy; */
+    font-family: 'Bilbo';
+    /* font-family: 'Comforter'; */
+    margin-top: 5px;
+    color: #351111;
+}
+
+p {
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Architects Daughter';
+}
+
+b {
+  font-size: 25px;
+  color: rgb(100, 20, 20);
+}
+
+#key {
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Architects Daughter';
+}
+
+a:link, a:visited {
+    background-color: rgb(116, 20, 20);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+  
+a:hover, a:active {
+    background-color: rgb(100, 20, 20);
+    transition: 0.3s;
+}
+
+#button {
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Architects Daughter';
+}
+
+#button1 {
+    width: 12%;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Architects Daughter';
+    cursor: pointer;
+    color: white;
+    background-color: rgb(116, 20, 20);
+    padding: 10px 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Bordered form */
+form {
+    border: 3px solid rgba(194, 149, 26, 0.799);
+}
+
+/* Set a style for all buttons */
+
+button {
+    width: 100%;
+    background-color: rgb(116, 20, 20);
+    color: white;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    font-family: 'Architects Daughter';
+}
+
+#button1 {
+    margin: auto;
+    margin-left: 40%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    background-color: rgb(100, 20, 20);
+    transition: 0.3s;
+}
+
+/* Extra style for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: rgb(100, 20, 20);
+    font-family: 'Architects Daughter';
+}
+
+ /* Center the image and position the close button */
+ .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The switch - the box around the slider */
+:root{
+  --transition-effect: 0.25s cubic-bezier(.25,-0.59,.82,1.66) .3s;
+}
+body{
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200718/pngtree-old-parchment-paper-background-texture-image_358325.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: var(--transition-effect);
+}
+body.dark{
+  background-image: url("https://i.pinimg.com/736x/19/6a/87/196a876bd94c90b38b2fae20602449eb.jpg");
+  color: white;
+}
+#wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.switch-toggle{
+  width: 60px;
+  height: 25px;
+  appearance: none;
+  background: #7b4343;
+  border-radius: 26px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, .3);
+  transition: var(--transition-effect);
+  margin-bottom: 10px;
+}
+.switch-toggle::before{
+  content: "";
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, .3);
+  transition: var(--transition-effect);
+
+}
+.switch-toggle:checked{
+  background: #470b0b;
+}
+.switch-toggle:checked:before{
+  left: 25px;
+}
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #c18d15;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid rgb(190, 137, 22);
+    width: 30%; /* Could be more or less, depending on screen size */
+  }
+
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+/* Change styless for span and cancel button on extra small screens */
+ /* Add Zoom Animation */
+ .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+h3 {
+    color: rgb(100, 20, 20);
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 25px;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
