@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200718/pngtree-old-parchment-paper-background-texture-image_358325.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header-name {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#ten-trung {
+    font-size: 50px;
+    color: rgb(100, 20, 20);
+    font-family: Copperplate, Papyrus, fantasy;
+    text-shadow: 3px 3px 3px #351111;
+}
+
+#han-viet {
+    font-size: 40px;
+    /* font-family: Copperplate, Papyrus, fantasy; */
+    font-family: 'Bilbo';
+    /* font-family: 'Comforter'; */
+    margin-top: 5px;
+    color: #351111;
+}
+
+.tua-sach-12 {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.quyen-1 {
+    width: 40%;
+    float: left;
+    margin-top: 20px;
+}
+
+#ten-sach {
+    font-size: 30px;
+    font-family: 'Bilbo';
+    color: #351111;
+}
+
+#ava {
+    width: 120px;
+    margin-top: 15px;
+}
+
+.quyen-2 {
+    width: 40%;
+    float: right;
+    margin-top: 20px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.tua-sach-34 {
+    width: 85%;
+    text-align: center;
+    margin: auto;
+}
+
+.quyen-3 {
+    width: 40%;
+    float: left;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#ten-sach-34 {
+    font-size: 30px;
+    font-family: 'Bilbo';
+    color: #351111;
+    margin-top: 40px;
+}
+
+.quyen-4 {
+    width: 40%;
+    float: right;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+a:link {
+    color: #351111;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #351111;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #351111;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: #351111;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#gif {
+    margin: auto;
+    margin-left: 470px;
+    margin-top: 30px;
+    border-radius: 20%;
+}
